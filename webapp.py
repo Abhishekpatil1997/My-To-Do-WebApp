@@ -9,7 +9,7 @@ def add_todo():
     """
     This function is designed for Streamlit specifically:
     It takes the text added in the input box on the webapp and
-    stores it in the variable todo(It has the key "new_todo").
+    stores it in the variable todo: It has the key new_todo.
     Then it appends the new todo to the list of todos and
     the new appended list is again stored/write in the text file
     """
