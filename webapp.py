@@ -5,6 +5,8 @@ import time
 
 
 todos = functions.get_todos()
+
+st.set_page_config(layout="wide")
 def add_todo():
     """
     This function is designed for Streamlit specifically:
